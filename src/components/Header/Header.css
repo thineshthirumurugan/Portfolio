@@ -1,0 +1,265 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  top: 0;
+  position: sticky;
+  z-index: 2000;
+}
+
+.header_left {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_left > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  border-width: 7px;
+  border-color: orange;
+}
+
+.header_left > h1 {
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 1px;
+  padding: 20px 0;
+  color: #f64c08;
+}
+
+.header_left > h1 > span {
+  color: rgb(217, 217, 217);
+}
+
+.header_right {
+  display: flex;
+  flex: 0.6;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header_right > a > h4 {
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  padding: 20px;
+  letter-spacing: 1px;
+  font-family: "Crimson Text";
+}
+
+.header_right > a > h4:hover {
+  transform: scale(1.09);
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header_right > a > header_rightButton {
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header_left {
+    flex: 0.3;
+  }
+  
+  .header_right {
+    flex: 0.7;
+    justify-content: center;
+  }
+
+  .header_right > a > h4 {
+    padding: 10px 0;
+  }
+
+  .header_right > a > h4:hover {
+    padding: 5px 15px;
+  }
+} */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+    background-color: #333; 
+    padding: 10px 20px; 
+}
+
+.header_left {
+    flex: 0.4; 
+    display: flex;
+    align-items: center;
+}
+
+.header_left > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid orange; 
+}
+
+.header_left > h1 {
+    font-family: "Alata", sans-serif;
+    letter-spacing: 1px;
+    margin: 0; 
+    color: #f64c08;
+    font-size: 20px;
+}
+
+.header_left > h1 > span {
+    color: #d9d9d9;
+}
+
+.header_right {
+    flex: 0.6; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.header_right > a > h4, .header_right > a > .header_rightButton {
+    font-size: 16px; 
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    margin-left: 15px; 
+}
+
+.header_right > a > h4:hover {
+    transform: scale(1.09);
+    background-color: #f64c08;
+    color: white;
+    padding: 5px 10px; 
+    border-radius: 2px;
+}
+
+.header_right > a > .header_rightButton {
+    background-color: #f64c08;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  top: 0;
+  position: sticky;
+  z-index: 2000;
+}
+
+.header_left {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_left > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  border-width: 7px;
+  border-color: orange;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px orange;
+}
+
+.header_left > h1 {
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 1px;
+  padding: 20px 0;
+  color: #f64c08;
+  
+}
+
+.header_left > h1 > span {
+  color: rgb(217, 217, 217);
+}
+
+.header_right {
+  display: flex;
+  flex: 0.6;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header_right > a > h4 {
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  padding: 20px;
+  letter-spacing: 1px;
+  font-family: "Crimson Text";
+}
+
+.header_right > a > h4:hover {
+  transform: scale(1.09);
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header_right > a > header_rightButton {
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header_left {
+    flex: 0.3;
+  }
+
+  .header_right {
+    flex: 0.7;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+
+  .header_right > a > h4 {
+    padding: 10px 15px; 
+  }
+
+  .header_right > a > h4:hover {
+    padding: 5px 15px;
+  }
+}

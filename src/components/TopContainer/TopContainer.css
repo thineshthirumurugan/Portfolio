@@ -1,0 +1,14 @@
+/* .topcontainer{
+    height: 100vh;
+    width: 99vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.topcontainer {
+    height: 100%;
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}

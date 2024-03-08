@@ -1,0 +1,181 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.topcontent {
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 90px;
+}
+
+.topcontent_container {
+  position: absolute;
+  left: 650px;\
+}
+
+.topcontent_container > p {
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 3px;
+  margin-top: 0px;
+  max-width: 800px;
+  align-items: center;
+}
+
+.topcontent_container > a > button {
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 5px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+
+
+.topcontent-downloadbutton {
+  color: white;
+  background-color: #f64c08;
+  font-size: 14px;
+  padding: 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.topcontent-downloadbutton:hover {
+  color: #f64c08;
+  background-color: white;
+  font-weight: 600;
+}
+
+.topcontent-myworkbutton {
+  color: white;
+  border: 1px solid white !important;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 9px 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topcontent-myworkbutton:hover {
+  color: black;
+  background-color: white;
+  font-weight: 600;
+}
+
+
+.rounded-image-container {
+  width: 400px; 
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #ccc; 
+  margin-left: 150px;
+  
+}
+
+.rounded-image-container img {
+  top: 500px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.topcontent {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 20px; 
+  top: 90px;
+  bottom: 0px;
+}
+
+.rounded-image-container {
+  width: 400px;
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin: 10px; 
+  transform: scale(1.1);
+  box-shadow: 0 0 80px #801f95;
+
+}
+.rounded-image-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #b124e0;
+  cursor: pointer;
+}
+
+.rounded-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.topcontent_container {
+  max-width: 800px; 
+  text-align: left; 
+  margin: 10px; 
+}
+
+.topcontent_container > p {
+  letter-spacing: 1px;
+  padding-left: 3px;
+  margin-top: 0px;
+  text-align: left; 
+}
+
+.topcontent_container > a > button {
+  margin-top: 20px;
+  text-align: left;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.topcontent-downloadbutton,
+.topcontent-myworkbutton {
+  font-size: 14px;
+  padding: 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f64c08;
+  color: white;
+  font-style: bold;
+  font-weight: 300;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.topcontent-downloadbutton:hover,
+.topcontent-myworkbutton:hover {
+  color: #f64c08;
+  background-color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .topcontent {
+    flex-direction: column; 
+    align-items: center;
+  }
+}
